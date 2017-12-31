@@ -1,0 +1,1 @@
+/Users/frankandcags/code/dn-mvc-loc/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache

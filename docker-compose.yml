@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dn-mvc-loc:
+    image: dn-mvc-loc
+    build:
+      context: ./.
+      dockerfile: Dockerfile
