@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ValuesController.cs">
     <Files>
       <File FileName="Controllers/HomeController.cs" Line="29" Column="27" />
-      <File FileName="Controllers/ValuesController.cs" Line="30" Column="40" />
+      <File FileName="Controllers/ValuesController.cs" Line="29" Column="33" />
       <File FileName="Models/ErrorViewModel.cs" Line="11" Column="2" />
       <File FileName="Views/Home/About.cshtml" Line="2" Column="33" />
       <File FileName="Views/Home/Contact.cshtml" Line="18" Column="1" />
