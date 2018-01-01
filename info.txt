@@ -1,0 +1,114 @@
+[
+    {
+        "Id": "sha256:0a3effc9486b9e76fbc81cda139e6ece8d0d5ac5dc329a93c0ccaa25c6442089",
+        "RepoTags": [
+            "dk-mvc:latest"
+        ],
+        "RepoDigests": [],
+        "Parent": "sha256:71428b4504653d3ec492baf971337909bdc03f2a0b1fcf7a24fb1d520c55a413",
+        "Comment": "",
+        "Created": "2017-12-17T14:40:24.998957448Z",
+        "Container": "65c628208c72026eb7feeb3481116d059006d8d0035faaa800a07579fb65d2b5",
+        "ContainerConfig": {
+            "Hostname": "65c628208c72",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": true,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Tty": true,
+            "OpenStdin": true,
+            "StdinOnce": true,
+            "Env": [
+                "no_proxy=*.local, 169.254/16",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "DOTNET_SDK_VERSION=2.1.3",
+                "DOTNET_SDK_DOWNLOAD_URL=https://dotnetcli.blob.core.windows.net/dotnet/Sdk/2.1.3/dotnet-sdk-2.1.3-linux-x64.tar.gz",
+                "DOTNET_SDK_DOWNLOAD_SHA=509b88895fd5a6a90e245141eb52f188aa9ee7d20188c213892483c142900d6975013aef9ca6d8da986cc5617a2c3571e22318297c51578b871c047602757600",
+                "NUGET_XMLDOC_MODE=skip"
+            ],
+            "Cmd": [
+                "bash"
+            ],
+            "ArgsEscaped": true,
+            "Image": "microsoft/dotnet",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "DockerVersion": "17.09.1-ce",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "no_proxy=*.local, 169.254/16",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "DOTNET_SDK_VERSION=2.1.3",
+                "DOTNET_SDK_DOWNLOAD_URL=https://dotnetcli.blob.core.windows.net/dotnet/Sdk/2.1.3/dotnet-sdk-2.1.3-linux-x64.tar.gz",
+                "DOTNET_SDK_DOWNLOAD_SHA=509b88895fd5a6a90e245141eb52f188aa9ee7d20188c213892483c142900d6975013aef9ca6d8da986cc5617a2c3571e22318297c51578b871c047602757600",
+                "NUGET_XMLDOC_MODE=skip"
+            ],
+            "Cmd": [
+                "bash"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 1794009734,
+        "VirtualSize": 1794009734,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/7c7aace6e5fe7d2bee024e9e125687ccb4f6dcbafbcc958d5891c0a2373efb33/diff:/var/lib/docker/overlay2/869e2955e06e2066e60abc41ea29f088a43a9e274f4581f2f5bdd8b9dcd459d9/diff:/var/lib/docker/overlay2/ed47402130b7674728fae20cae1566df65db07d338a6ab8470e4672a24813d65/diff:/var/lib/docker/overlay2/f6f61ec1106f3cf1a88dbd22fc8a099ec2053c6e00db04eb6e32638acc81ec7b/diff:/var/lib/docker/overlay2/fe254d84bc25d62243ed40ae85f2da5e8e787e34036eb27491422253a3caff63/diff:/var/lib/docker/overlay2/dfb6bed36a8e5236c447e576dc16e677caebad37078901707aed586b94a41c8f/diff:/var/lib/docker/overlay2/e27e28b805bfaf58a99c1938a4d1d43fe68a0c281f08478b6c6ac702702b98a1/diff:/var/lib/docker/overlay2/3da634a23e393dc8c91f3f35af27d912015c6facf711c43e7d679c811dfee7f3/diff:/var/lib/docker/overlay2/3a99a9d263bf99d20df53f8bde81a6c9777f59cafdfd6b345a691dd1debaa469/diff:/var/lib/docker/overlay2/6f95a8d86c6bd3286c5866b861673dee300b490363dbd28646083b85bfd3a9fe/diff:/var/lib/docker/overlay2/ce11598153f3a9d14de0107ae57be7446e78f6b71d464e31a53ee17c6fec49e0/diff:/var/lib/docker/overlay2/5d4ab78607ac230c1dff22804aa3d6d7c8fffb92bfd8521a9a36fe91e63dabc5/diff:/var/lib/docker/overlay2/6da48d7cd574f90f811b1f16a0e7e4479884a90a1f302fc29450fb87a7bb5232/diff",
+                "MergedDir": "/var/lib/docker/overlay2/9156ea1d438c591b81c451179242a81ee7b0092ab0ce3576a6b11c0a70aeeb93/merged",
+                "UpperDir": "/var/lib/docker/overlay2/9156ea1d438c591b81c451179242a81ee7b0092ab0ce3576a6b11c0a70aeeb93/diff",
+                "WorkDir": "/var/lib/docker/overlay2/9156ea1d438c591b81c451179242a81ee7b0092ab0ce3576a6b11c0a70aeeb93/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:e27a10675c5656bafb7bfa9e4631e871499af0a5ddfda3cebc0ac401dfe19382",
+                "sha256:851f3e348c69d8959d326f0bab975c03f9813eec33aba389aa7c569953510433",
+                "sha256:06f4de5fefeae30802d336e8c234b9c0989542fb80efd4f83be06c41aba26d9f",
+                "sha256:b31411566900643c38169980a21093c23e0a12a12ffea78b1921d07dd40372bd",
+                "sha256:16c7a85db12d2aae0175e3fa3049686648640acc2c8c851f4d2303fe8f008382",
+                "sha256:4e53a529bf595c76e2ee26602ab5fdddd3feff72ab28df5c89ac13fbd5b2024e",
+                "sha256:c0a4a7ed0b2f801174a242f625623e41894ecbea63fb44a809b74680a9d69ed4",
+                "sha256:b5b867f48422833e9839cffcc16d66482888ef1399e78132f1deef831db23f5b",
+                "sha256:ed889e40e5019e6554b327f8a1ce3ec6df8b69cfbbac830d6a107751ca1a93d7",
+                "sha256:9c1a39c87b357ef5c2686458b4de31821d2de9d3cdda3d98f2115632279fb85b",
+                "sha256:6cf0ed76f3cc0768c4f94b169dd4f7336f941f02a0b6528ac970b3bf5797d2ce",
+                "sha256:bf2cb26aceaeafc098611c21124618d7547fe3af3d423d15857b6fd86ac6467a",
+                "sha256:26f5666451a8deeb7509b6f3cf72c27d5c4ec1fcf89f228e02c55678a16b67e6",
+                "sha256:9aa8751c89272e6ba824999762fa19c80d9d41f5abf63a1dcc23439edb53d606"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2017-12-17T14:41:18.797060258Z"
+        }
+    }
+]
