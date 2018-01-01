@@ -28532,11 +28532,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/frankandcags/code/dn-mvc-loc/dn-mvc-loc.csproj",
+      "projectUniqueName": "/Users/frankandcags/dn-mvc-loc/dn-mvc-loc.csproj",
       "projectName": "dn-mvc-loc",
-      "projectPath": "/Users/frankandcags/code/dn-mvc-loc/dn-mvc-loc.csproj",
+      "projectPath": "/Users/frankandcags/dn-mvc-loc/dn-mvc-loc.csproj",
       "packagesPath": "/Users/frankandcags/.nuget/packages/",
-      "outputPath": "/Users/frankandcags/code/dn-mvc-loc/obj",
+      "outputPath": "/Users/frankandcags/dn-mvc-loc/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
