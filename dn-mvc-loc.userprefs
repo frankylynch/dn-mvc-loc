@@ -1,21 +1,13 @@
 ﻿<Properties StartupConfiguration="{4D2FE5A2-9F18-4820-B6BD-2951168BA340}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataStore/VideoGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/HomeController.cs">
     <Files>
-      <File FileName="DataStore/VideoGame.cs" Line="15" Column="2" />
-      <File FileName="DataStore/VideoGamesDatabaseContext.cs" Line="18" Column="71" />
-      <File FileName="DataStore/DatabaseTasks.cs" Line="32" Column="40" />
-      <File FileName="Models/ErrorViewModel.cs" Line="11" Column="2" />
-      <File FileName="Controllers/ValuesController.cs" Line="11" Column="5" />
-      <File FileName="Controllers/DbActionController.cs" Line="27" Column="1" />
-      <File FileName="Controllers/HomeController.cs" Line="9" Column="21" />
+      <File FileName="Controllers/HomeController.cs" Line="15" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/frankandcags/code/dn-mvc-local/Controllers/HomeController.cs" relfile="Controllers/HomeController.cs" line="27" column="56" />
-      <Breakpoint file="/Users/frankandcags/code/dn-mvc-local/Controllers/DbActionController.cs" relfile="Controllers/DbActionController.cs" line="27" column="1" />
-      <Breakpoint file="/Users/frankandcags/code/dn-mvc-local/DataStore/DatabaseTasks.cs" relfile="DataStore/DatabaseTasks.cs" line="17" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.dn-mvc-loc PreferredExecutionTarget="MonoDevelop.Default" />

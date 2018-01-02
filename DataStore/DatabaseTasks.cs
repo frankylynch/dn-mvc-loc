@@ -6,11 +6,27 @@ namespace dn_mvc_loc
 {
     class DatabaseTasks
     {
-        public void setup()
+
+        public void init()
+        {
+            using (var context = new DatabaseContext())
+            {
+
+                //The line below clears and resets the databse.
+                context.Database.EnsureDeleted();
+
+                // Create the database if it does not exist
+                context.Database.EnsureCreated();
+
+                context.SaveChanges();
+            }
+        }
+
+        public void pushFakeData()
         {
             Console.WriteLine("Hello World Entity Framework Core!");
 
-            using (var context = new VideoGamesDatabaseContext())
+            using (var context = new DatabaseContext())
             {
 
                 //The line below clears and resets the databse.
@@ -42,12 +58,14 @@ namespace dn_mvc_loc
                     Console.WriteLine($"{videoGame.Title} - {videoGame.Platform}");
                 }
 
+
+
+
                 // Fetch all PS4 games
                 var ps4Games = from v in context.VideoGames
                                where v.Platform == "PS4"
                                select v;
 
-                Console.WriteLine("PS4 Games");
                 foreach (var videoGame in ps4Games)
                 {
                     Console.WriteLine($"{videoGame.Title} - {videoGame.Platform}");
@@ -56,8 +74,14 @@ namespace dn_mvc_loc
                 //delete ps4 games
                 Console.WriteLine("Deleting PS4 Games");
                 context.VideoGames.RemoveRange(ps4Games);
+
+
+
+
                 //Do not forget to commit changes by calling save changes
                 context.SaveChanges();
+               
+
                 Console.WriteLine("Current database content");
                 foreach (var videoGame in context.VideoGames)
                 {

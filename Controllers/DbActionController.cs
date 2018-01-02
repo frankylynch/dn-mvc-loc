@@ -25,7 +25,19 @@ namespace dnmvcloc.Controllers
             //return "value";
 
             DatabaseTasks dbTasts = new DatabaseTasks();
-            dbTasts.setup();
+            dbTasts.init();
+
+            return "ok";
+        }
+
+        // GET api/values/5
+        [HttpGet("fake")]
+        public string GetFake()
+        {
+            //return "value";
+
+            DatabaseTasks dbTasts = new DatabaseTasks();
+            dbTasts.pushFakeData();
 
             return "ok";
         }

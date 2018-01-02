@@ -1,0 +1,10 @@
+/Users/frankandcags/code/dn-mvc-local/bin/Debug/netcoreapp2.0/dn-mvc-loc.deps.json
+/Users/frankandcags/code/dn-mvc-local/bin/Debug/netcoreapp2.0/dn-mvc-loc.runtimeconfig.json
+/Users/frankandcags/code/dn-mvc-local/bin/Debug/netcoreapp2.0/dn-mvc-loc.runtimeconfig.dev.json
+/Users/frankandcags/code/dn-mvc-local/bin/Debug/netcoreapp2.0/dn-mvc-loc.dll
+/Users/frankandcags/code/dn-mvc-local/bin/Debug/netcoreapp2.0/dn-mvc-loc.pdb
+/Users/frankandcags/code/dn-mvc-local/obj/Debug/netcoreapp2.0/dn-mvc-loc.csproj.CoreCompileInputs.cache
+/Users/frankandcags/code/dn-mvc-local/obj/Debug/netcoreapp2.0/dn-mvc-loc.AssemblyInfoInputs.cache
+/Users/frankandcags/code/dn-mvc-local/obj/Debug/netcoreapp2.0/dn-mvc-loc.AssemblyInfo.cs
+/Users/frankandcags/code/dn-mvc-local/obj/Debug/netcoreapp2.0/dn-mvc-loc.dll
+/Users/frankandcags/code/dn-mvc-local/obj/Debug/netcoreapp2.0/dn-mvc-loc.pdb
