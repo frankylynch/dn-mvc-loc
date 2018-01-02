@@ -6,7 +6,7 @@ namespace dn_mvc_loc
     public class User
     {
         [Key]
-        public int Id { get; set; }
+        public int UserId { get; set; }
 
         public string UserName { get; set; }
 

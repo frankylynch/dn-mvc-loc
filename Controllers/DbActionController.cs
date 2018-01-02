@@ -20,26 +20,41 @@ namespace dnmvcloc.Controllers
 
         // GET api/values/5
         [HttpGet("init")]
-        public string Get()
+        public string GetInit()
         {
-            //return "value";
-
             DatabaseTasks dbTasts = new DatabaseTasks();
             dbTasts.init();
 
-            return "ok";
+            return "done";
+        }
+
+        // GET api/values/5
+        [HttpGet("create")]
+        public string GetCreate()
+        {
+            DatabaseTasks.createDbFromContext();
+           
+            return "done";
+        }
+
+        // GET api/values/5
+        [HttpGet("delete")]
+        public string GetClear()
+        {
+            DatabaseTasks dbTasts = new DatabaseTasks();
+            dbTasts.deleteDb();
+
+            return "done";
         }
 
         // GET api/values/5
         [HttpGet("fake")]
         public string GetFake()
         {
-            //return "value";
-
             DatabaseTasks dbTasts = new DatabaseTasks();
             dbTasts.pushFakeData();
 
-            return "ok";
+            return "done";
         }
     }
 

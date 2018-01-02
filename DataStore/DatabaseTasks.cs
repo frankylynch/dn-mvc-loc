@@ -9,16 +9,25 @@ namespace dn_mvc_loc
 
         public void init()
         {
+            deleteDb();
+            createDbFromContext();
+        }
+
+        public void deleteDb()
+        {
             using (var context = new DatabaseContext())
             {
-
-                //The line below clears and resets the databse.
+                // The line below clears and resets the databse.
                 context.Database.EnsureDeleted();
+            }
+        }
 
+        static public void createDbFromContext()
+        {
+            using (var context = new DatabaseContext())
+            {
                 // Create the database if it does not exist
                 context.Database.EnsureCreated();
-
-                context.SaveChanges();
             }
         }
 
@@ -28,13 +37,6 @@ namespace dn_mvc_loc
 
             using (var context = new DatabaseContext())
             {
-
-                //The line below clears and resets the databse.
-                context.Database.EnsureDeleted();
-
-                // Create the database if it does not exist
-                context.Database.EnsureCreated();
-
                 // Add some video games. 
                 //Note that the Id field is autoincremented by default
                 context.VideoGames.Add(new VideoGame
@@ -48,7 +50,27 @@ namespace dn_mvc_loc
                 SG.Platform = "PSVita";
                 context.VideoGames.Add(SG);
 
-                //Commit changes by calling save changes
+
+                var loc = new Location();
+                loc.LocationId = 1;
+                loc.HouseNum = "20";
+                loc.City = "Glasgow";
+                context.Locations.Add(loc);
+
+                context.Items.Add(new Item
+                {
+                    LocationId = 1,
+                    //Location = loc,
+                    Description = "x box"
+                });
+
+                /*
+                select it.*from Locations loc,Items it
+                where loc.LocationId = it.LocationId
+                and loc.City = 'Glasgow'
+                */
+
+                // Commit changes by calling save changes
                 context.SaveChanges();
 
                 // Fetch all video games
