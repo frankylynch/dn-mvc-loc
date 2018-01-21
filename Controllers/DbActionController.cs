@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using dn_mvc_loc;
 using Microsoft.AspNetCore.Mvc;
+using System.Web;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -18,8 +19,27 @@ namespace dnmvcloc.Controllers
             return View();
         }
 
+
+
         // GET api/values/5
-        [HttpGet("init")]
+        [HttpGet("items")]
+        public string GetItems()
+
+        {
+            DatabaseTasks dbTasts = new DatabaseTasks();
+            var obj = dbTasts.getItems();
+
+           // var json = new JavaScriptSerializer().Serialize(obj);
+
+            var json = Newtonsoft.Json.JsonConvert.SerializeObject(obj);
+
+            return json;
+        }
+
+
+
+        // GET api/values/5
+        [HttpGet("doinit")]
         public string GetInit()
         {
             DatabaseTasks dbTasts = new DatabaseTasks();

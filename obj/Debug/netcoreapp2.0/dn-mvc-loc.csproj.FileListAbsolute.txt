@@ -8,3 +8,14 @@
 /Users/frankandcags/code/dn-mvc-local/obj/Debug/netcoreapp2.0/dn-mvc-loc.AssemblyInfo.cs
 /Users/frankandcags/code/dn-mvc-local/obj/Debug/netcoreapp2.0/dn-mvc-loc.dll
 /Users/frankandcags/code/dn-mvc-local/obj/Debug/netcoreapp2.0/dn-mvc-loc.pdb
+/Users/franklynch/code/dn-mvc-loc/bin/Debug/netcoreapp2.0/dn-mvc-loc.deps.json
+/Users/franklynch/code/dn-mvc-loc/bin/Debug/netcoreapp2.0/dn-mvc-loc.runtimeconfig.json
+/Users/franklynch/code/dn-mvc-loc/bin/Debug/netcoreapp2.0/dn-mvc-loc.runtimeconfig.dev.json
+/Users/franklynch/code/dn-mvc-loc/bin/Debug/netcoreapp2.0/dn-mvc-loc.dll
+/Users/franklynch/code/dn-mvc-loc/bin/Debug/netcoreapp2.0/dn-mvc-loc.pdb
+/Users/franklynch/code/dn-mvc-loc/obj/Debug/netcoreapp2.0/dn-mvc-loc.csprojResolveAssemblyReference.cache
+/Users/franklynch/code/dn-mvc-loc/obj/Debug/netcoreapp2.0/dn-mvc-loc.csproj.CoreCompileInputs.cache
+/Users/franklynch/code/dn-mvc-loc/obj/Debug/netcoreapp2.0/dn-mvc-loc.AssemblyInfoInputs.cache
+/Users/franklynch/code/dn-mvc-loc/obj/Debug/netcoreapp2.0/dn-mvc-loc.AssemblyInfo.cs
+/Users/franklynch/code/dn-mvc-loc/obj/Debug/netcoreapp2.0/dn-mvc-loc.dll
+/Users/franklynch/code/dn-mvc-loc/obj/Debug/netcoreapp2.0/dn-mvc-loc.pdb

@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace dn_mvc_loc
 {
-    public class Startup
+    public class Startup 
     {
         public Startup(IConfiguration configuration)
         {
