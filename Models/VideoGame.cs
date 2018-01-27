@@ -11,5 +11,6 @@ namespace dn_mvc_loc
         public string Title { get; set; }
 
         public string Platform { get; set; }
+
     }
 }

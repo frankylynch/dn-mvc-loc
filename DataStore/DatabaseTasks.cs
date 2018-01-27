@@ -58,6 +58,7 @@ namespace dn_mvc_loc
 
             using (var context = new DatabaseContext())
             {
+                //context.Database.
                 return context.Items.ToList<Item>();
 
             }

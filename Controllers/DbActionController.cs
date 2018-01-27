@@ -22,21 +22,27 @@ namespace dnmvcloc.Controllers
 
 
         // GET api/values/5
-        [HttpGet("items")]
+        [HttpGet("itemList")]
         public string GetItems()
 
         {
-            DatabaseTasks dbTasts = new DatabaseTasks();
-            var obj = dbTasts.getItems();
+            DatabaseTasks dbTasks = new DatabaseTasks();
+            var obj = dbTasks.getItems();
 
-           // var json = new JavaScriptSerializer().Serialize(obj);
-
+           
             var json = Newtonsoft.Json.JsonConvert.SerializeObject(obj);
 
             return json;
         }
 
+        [HttpGet("items")]
+        public ActionResult Items()
+        {
+            DatabaseTasks dbTasks = new DatabaseTasks();
+            var obj = dbTasks.getItems();
 
+            return View(obj);
+        }
 
         // GET api/values/5
         [HttpGet("doinit")]

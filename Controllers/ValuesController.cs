@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace dnmvcloc.Controllers
 {
+
+    delegate int del(int i); 
+
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
@@ -29,8 +32,9 @@ namespace dnmvcloc.Controllers
         [HttpGet("x={x},y={y}")]
         public string Get(int x, int y)
         {
-            //return "value";
-            int val = x * y;
+            del sq=i=>i*i;
+            int val = sq(x);
+
             return val.ToString();
         }
 

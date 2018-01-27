@@ -15,3 +15,4 @@ namespace dn_mvc_loc
         //public Location Location { get; set; }
     }
 }
+
