@@ -18,6 +18,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataStore\" />
-    <Folder Include="Views\Item\" />
+    <Folder Include="Views\User\" />
   </ItemGroup>
 </Project>

@@ -14,6 +14,8 @@ namespace dn_mvc_loc
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
+            //BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
 
         public IConfiguration Configuration { get; }

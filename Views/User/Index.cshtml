@@ -1,0 +1,68 @@
+﻿@model IEnumerable<dn_mvc_loc.User>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="page-header">
+    <h1 contenteditable="false">Users<small> Create, edit or delete users</small></h1>
+</div>
+ <h2 type="button">
+            @Html.ActionLink("Create New", "Create")
+            </h2>
+
+<div class="container">
+
+    <div class="col-md-1 column">
+           
+
+        </div>
+        <div class="col-md-10 column">
+
+            <table class="table" contenteditable="true">
+              <thead>
+                    <tr>
+                     <th>#</th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.UserName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.City)
+                    </th>
+                    <th>Action</th>
+                </tr>
+              </thead>
+
+            @foreach (var item in Model) {
+                <tr class="active">
+                  
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.City)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id=item.UserId }) |
+                        @Html.ActionLink("Details", "Details", new { id=item.UserId }) |
+                        @Html.ActionLink("Delete", "Delete", new { id=item.UserId })
+                    </td>
+                </tr>
+            }
+
+            </table>
+        </div>
+        <div class="col-md-1 column">
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+        </div>
+    </div>
+
+
+
+ 

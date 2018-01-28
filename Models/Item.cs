@@ -13,6 +13,11 @@ namespace dn_mvc_loc
         public int LocationId { get; set; }
         //[ForeignKey("LocationId")]
         //public Location Location { get; set; }
+
+        public string Location
+        {get;
+       set;
+        }
+
     }
 }
-

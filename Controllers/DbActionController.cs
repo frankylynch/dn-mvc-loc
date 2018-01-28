@@ -19,8 +19,6 @@ namespace dnmvcloc.Controllers
             return View();
         }
 
-
-
         // GET api/values/5
         [HttpGet("itemList")]
         public string GetItems()
