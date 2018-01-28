@@ -23,15 +23,6 @@ namespace dn_mvc_loc
             }
         }
 
-       /* public List<Locations> fetch()
-        {
-            using (var context = new DatabaseContext())
-            {
-                // The line below clears and resets the databse.
-                return context.Locations.All;
-            }
-        }*/
-
         static public void createDbFromContext()
         {
             using (var context = new DatabaseContext())
@@ -43,19 +34,6 @@ namespace dn_mvc_loc
 
         public List<Item> getItems()
         {
-            /* using (var context = new DatabaseContext())
-             {
-                 //return context.Items.All;
-                 var data = context.Items.ToList();//OrderBy(a => a.ItemId);
-                 foreach (var item in data)
-                 {
-                     Console.WriteLine(item.ItemId + " " + item.Description);
-                 }
-
-                 return data.ToString();
-             }*/
-
-
             using (var context = new DatabaseContext())
             {
                 //context.Database.
@@ -64,24 +42,12 @@ namespace dn_mvc_loc
             }
         }
 
-
-
         public void pushFakeData()
         {
             Console.WriteLine("Hello World Entity Framework Core!");
 
             using (var context = new DatabaseContext())
             {
-                // Add some video games. 
-                //Note that the Id field is autoincremented by default
-
-
-                var SG = new VideoGame();
-                SG.Title = "Steins's Gate";
-                SG.Platform = "PSVita";
-                context.VideoGames.Add(SG);
-
-
                 var loc = new Location();
                 loc.LocationId = 1;
                 loc.HouseNum = "20";
@@ -97,12 +63,9 @@ namespace dn_mvc_loc
                 item2.ItemId = 2;
                 item2.Description = "ps3";
                 context.Items.Add(item2);
-              
-              
+               
                 // Commit changes by calling save changes
                 context.SaveChanges();
-
-              
             }
         }
     }

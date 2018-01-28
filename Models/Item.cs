@@ -9,15 +9,7 @@ namespace dn_mvc_loc
         [Key]
         public int ItemId { get; set; }
         public string Description { get; set; }
-
         public int LocationId { get; set; }
-        //[ForeignKey("LocationId")]
-        //public Location Location { get; set; }
-
-        public string Location
-        {get;
-       set;
-        }
-
+        public string Location { get; set; }
     }
 }

@@ -7,11 +7,6 @@ namespace dn_mvc_loc
     /// </summary>
     public class DatabaseContext : DbContext
     {
-        /// <summary>
-        /// This property allows to manipoulate the video games table
-        /// </summary>
-        public DbSet<VideoGame> VideoGames { get; set; }
-
         public DbSet<User> Users { get; set; }
 
         public DbSet<Location> Locations { get; set; }
