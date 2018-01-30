@@ -18,3 +18,4 @@
 /Users/franklynch/code/dn-mvc-loc/obj/Debug/netcoreapp2.0/dn-mvc-loc.AssemblyInfo.cs
 /Users/franklynch/code/dn-mvc-loc/obj/Debug/netcoreapp2.0/dn-mvc-loc.dll
 /Users/franklynch/code/dn-mvc-loc/obj/Debug/netcoreapp2.0/dn-mvc-loc.pdb
+/Users/franklynch/code/dn-mvc-loc/obj/Debug/netcoreapp2.0/dn-mvc-loc.csprojResolveAssemblyReference.cache
